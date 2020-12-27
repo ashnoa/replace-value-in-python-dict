@@ -1,10 +1,9 @@
-Sample Module Repository
-========================
+Replace Value in Dict on Python
+===============================
 
-This simple project is an example repo for Python projects.
+This is a small Python package to replace a target value in dict with an expected value.
 
-`Learn more <http://www.kennethreitz.org/essays/repository-structure-and-python>`_.
-
+Author
 ---------------
+`ashnoa <https://twitter.com/ashnoa>`_
 
-If you want to learn more about ``setup.py`` files, check out `this repository <https://github.com/kennethreitz/setup.py>`_.

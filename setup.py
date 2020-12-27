@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='rvid',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='A small package to replace values in dict on python',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Hiroki Asano',
+    author_email='asano.hiroki@gmail.com',
+    url='https://github.com/ashnoa/replace-value-in-python-dict',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
