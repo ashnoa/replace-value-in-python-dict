@@ -18,6 +18,11 @@ setup(
     author_email='asano.hiroki@gmail.com',
     url='https://github.com/ashnoa/replace-value-in-python-dict',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'docs')),
+    classifiers=[
+        "Programming Language :: Python :: 3.7",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 )
 
