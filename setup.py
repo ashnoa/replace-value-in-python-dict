@@ -14,6 +14,7 @@ setup(
     version='0.1.0',
     description='A small package to replace values in dict on python',
     long_description=readme,
+    long_description_content_type='text/markdown',
     author='Hiroki Asano',
     author_email='asano.hiroki@gmail.com',
     url='https://github.com/ashnoa/replace-value-in-python-dict',
