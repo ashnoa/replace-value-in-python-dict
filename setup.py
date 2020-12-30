@@ -3,17 +3,17 @@
 from setuptools import setup, find_packages
 
 
-with open('README.md') as f:
-    readme = f.read()
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 with open('LICENSE') as f:
     license = f.read()
 
 setup(
     name='rvid',
-    version='0.1.0',
+    version='0.1.3',
     description='A small package to replace values in dict on python',
-    long_description=readme,
+    long_description=long_description,
     long_description_content_type='text/markdown',
     author='Hiroki Asano',
     author_email='asano.hiroki@gmail.com',
