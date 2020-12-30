@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import copy
-from . import helpers
 
 
 def _replace_list(source, target, by, dict_replacer):
